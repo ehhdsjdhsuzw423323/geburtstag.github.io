@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Für Lena 16.11</title>
+    <link rel="stylesheet" href="style3.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta property='og:title' content='Für Lena 16.11'/>
+    <meta property='og:description' content='Für das besondere Mädchen...'/>
+    <meta property='og:image:width' content='1200' />
+    <meta property='og:image:height' content='627' />
+    <meta property="og:type" content='website'/>
+</head>
+<body>
+    
+    <section class="section-1">
+        <div class="top1">
+            <h1>lena</h1>
+            <p>16.11.2006</p>
+        </div>
+        <div class="bottom1">
+            <h1>ALLES GUTE ZUM</h1>
+            <h2>17. GEBURTSTAG</h2>
+            <p>"Ich habe noch nie so ein tolles</p>
+            <p>Mädchen wie dich kennengelernt"</p>
+        </div>
+        <script src="confetti.js"></script>
+        <script>
+            const start = () => {
+                setTimeout(function(){
+                    confetti.start();
+                },1000);
+            };
+
+            const stop = () => {
+                setTimeout(function(){
+                    confetti.stop();
+                },3000);
+            };
+            start();
+            stop();
+        </script>
+    </section>
+
+    <section class="section-2">
+        <div class="top2">
+            <h1 data-aos="fade-right">Wir kennen uns</h1>
+            <h1 data-aos="fade-right">nun seit</h1>
+            <p data-aos="fade-right">Ich liebe dich seit</p>
+        </div>
+        <div class="bottom2">
+            <div class="time">
+                <h2 data-aos="fade-up-right">3 <span class="boldtime">Monaten</span></h2>
+            </div>
+            <div class="time">
+                <h2 data-aos="fade-up-right">11 <span class="boldtime">Wochen</span></h2>
+
+            </div>
+            <div class="time">
+                <h2 data-aos="fade-up-right">80 <span class="boldtime">Tagen</span></h2>
+            </div>
+            <div class="time">
+                <h2 data-aos="fade-up-right">1920 <span class="boldtime">Stunden</span></h2>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-3">
+        <h1 data-aos="fade-right">Meine 1. Nachricht</h1>
+        <h1 data-aos="fade-right">an dich</h1>
+        <p data-aos="fade-right">Mein 1. Kompliment</p>
+        <h2 data-aos="zoom-in-up">"Du bist auf dem</h2>
+        <h2 data-aos="zoom-in-up">Foto sehr schön"</h2>
+    </section>
+
+    <section class="section-4">
+        <h1 data-aos="fade-right">Was geschah nach</h1>
+        <h1 data-aos="fade-right">der Nachricht?</h1>
+        <p data-aos="fade-right">Meine 1. Gefühle</p>
+        <div class="text4">
+            <button data-aos="fade-up" id="deutschBtn">Deutsch</button>
+            <button data-aos="fade-up" id="russischBtn">Russisch</button>
+            <div data-aos="fade-up-right" id="text">Ich sah mir dein Foto stundenlang an. Jedes einzelne Detail von dir war so schön und einzigartig. Ich wusste nicht, was ich dir schreiben sollte, aber ich wusste, dass ich mich verliebt habe. Ich ging zu meinem Freund, um darüber zu reden, er hat schnell gemerkt, wie besessen ich von dir war. Jede Sache, die ich über dich sagte, war über deine Schönheit. Ich lag stundenlang im Bett und konnte nicht schlafen. Ich musste jede Nacht an dich denken. Jedes Dankeschön von dir hat mein Herz berührt.</div>
+        </div>
+    </section>
+
+    <section class="section-5">
+        <h1 data-aos="fade-right">Was Liebe ich</h1>
+        <h1 data-aos="fade-right">an dir?</h1>
+        <p data-aos="fade-right">ALLES, ALLES, ALLES, ALLES</p>
+        <div id="content">
+            <div data-aos="zoom-in" class="item">Deine Augen</div>
+            <div data-aos="zoom-in" class="item">Deine Haare</div>
+            <div data-aos="zoom-in" class="item">Dein Charakter</div>
+            <div data-aos="zoom-in" class="item">Deine Art</div>
+            <div data-aos="zoom-in" class="item">Dein Potenzial</div>
+            <div data-aos="zoom-in" class="item">Dein Respekt</div>
+        </div>
+    </section>
+
+    <section class="section-6">
+        <h1 data-aos="fade-right">Insgesamt...</h1>
+        <p data-aos="fade-right">BIST DU SO SCHÖN AHHHHH</p>
+        <h2 data-aos="zoom-out">Liebe ich alles an</h2>
+        <h2 data-aos="zoom-out">dir, du hast mein</h2>
+        <h2 data-aos="zoom-out">Herz erobert. Ich</h2>
+        <h2 data-aos="zoom-out">denke nur noch an</h2>
+        <h2 data-aos="zoom-out">dich.</h2>
+    </section>
+
+
+    <section class="section-7">
+        <h1 data-aos="fade-right">Schreib mir deinen</h1>
+        <h1 data-aos="fade-right">Wunsch auf Tg</h1>
+        <p data-aos="fade-right">Du hast es dir wirklich verdient :)</p>
+    </section>
+
+    <div class="footer">
+        <a href="index.html" >1. Seite</a>
+        <a href="site2.html">2. Seite</a>
+        <a class="active" href="#">3. Seite</a>
+    </div>
+
+    <script>
+        const deutschBtn = document.getElementById('deutschBtn');
+        const russischBtn = document.getElementById('russischBtn');
+        const textElement = document.getElementById('text');
+
+        deutschBtn.addEventListener('click', () => {
+            textElement.textContent = 'Ich sah mir dein Foto stundenlang an. Jedes einzelne Detail von dir war so schön und einzigartig. Ich wusste nicht, was ich dir schreiben sollte, aber ich wusste, dass ich mich verliebt habe. Ich ging zu meinem Freund, um darüber zu reden, er hat schnell gemerkt, wie besessen ich von dir war. Jede Sache, die ich über dich sagte, war über deine Schönheit. Ich lag stundenlang im Bett und konnte nicht schlafen. Ich musste jede Nacht an dich denken. Jedes Dankeschön von dir hat mein Herz berührt.';
+        });
+
+        russischBtn.addEventListener('click', () => {
+            textElement.textContent = 'Я смотрел твою фотографию часами. Каждая отдельная деталь о тебе была такой красивой и уникальной. Я не знал, что мне написать тебе, но то, что я знал, так это то, что я влюбился. Я пошел к другу, чтобы поговорить об этом, он быстро заметил, насколько я был одержим тобой. Каждая вещь, которую я говорил о тебе, касалась твоей красоты. Я лежал часами в постели и не мог заснуть. Мне приходилось думать о тебе каждую ночь.. Каждое спасибо от тебя тронуло мое сердце.';
+        });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
